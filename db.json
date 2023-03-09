@@ -1,0 +1,35 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "Buckets": {
+    "bucket3": [
+      {
+        "card_title": "title",
+        "cardUrl": "cardurl"
+      }
+    ],
+    "bucket6": [
+      {
+        "card_title": "title",
+        "cardUrl": "cardurl"
+      }
+    ],
+    "bucket5": [
+      {
+        "card_title": "title",
+        "cardUrl": "cardurl"
+      }
+    ],
+    "bucket4": [
+      {
+        "card_title": "title",
+        "cardUrl": "cardurl"
+      }
+    ]
+  }
+}
