@@ -16,9 +16,9 @@ const Bucket = () => {
     },[])
 
     const handleClick = (e) =>{
-        console.log('click handle',e)
         const bucketName = e
         dispatch(showCart(bucketName))
+        localStorage.setItem('localstorage_bucketName',e)
         navigate('/cards')
     }
 

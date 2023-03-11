@@ -1,6 +1,5 @@
-import React, { useState,useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import { useDispatch } from 'react-redux'
-import { createBucket } from '../redux/reducer/BucketSlice'
 import Bucket from './Bucket'
 import { fetchBuckets } from '../redux/reducer/BucketSlice'
 import axios from 'axios'
@@ -8,32 +7,31 @@ import axios from 'axios'
 const CreateBucket = () => {
     const dispatch = useDispatch()
     const [name, setName] = useState('')
-    const [bucketObject,setBucketObject] = useState({})
-    useEffect(()=>{
+    const [bucketObject, setBucketObject] = useState({})
+    useEffect(() => {
         dispatch(fetchBuckets())
-        console.log('use effect runs')
         getBuckets()
-    },[])
-    const getBuckets = ()=>{
+    }, [])
+    const getBuckets = () => {
         axios('http://localhost:3000/Buckets')
-        .then((res)=>{
-            setBucketObject(res.data)
-            console.log('response => ',res.data )
-        })
-        .catch(console.log)
+            .then((res) => {
+                setBucketObject(res.data)
+                console.log('response => ', res.data)
+            })
+            .catch(console.log)
     }
     const setValue = (e) => {
         setName(e.target.value)
     }
-    const clickHandle = async() => {
+    const clickHandle = async () => {
         console.log('click handle')
-        if(bucketObject){
+        if (bucketObject) {
             let object = bucketObject;
             object[name] = []
             setBucketObject(bucketObject)
-            axios.post('http://localhost:3000/Buckets',bucketObject)
-            .then((res)=>{console.log('commit')})
-            .catch(console.log)
+            axios.post('http://localhost:3000/Buckets', bucketObject)
+                .then((res) => { console.log('commit') })
+                .catch(console.log)
         }
         dispatch(fetchBuckets())
         setName('')
@@ -52,7 +50,6 @@ const CreateBucket = () => {
                     </div>
                 </div>
             </div>
-
             <Bucket />
         </>
     )

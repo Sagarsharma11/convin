@@ -7,16 +7,30 @@
     }
   ],
   "Buckets": {
-    "sagar": [
-      {"cardname":"card1","cardtitle":"cardtitle1","cardurl":"https://www.youtube.com/watch?v=tB1sVu4-fr4"},
-      {"cardname":"card2","cardtitle":"cardtitle2","cardurl":"https://www.youtube.com/watch?v=tB1sVu4-fr4"},
-      {"cardname":"card3","cardtitle":"cardtitle3","cardurl":"https://www.youtube.com/watch?v=tB1sVu4-fr4"}
+    "Entertainment": [
+      {
+        "cardTitle": "cardtitle4",
+        "cardDesc": "description",
+        "cardUrl": "https://www.youtube.com/watch?v=gaH_LHo4e3w"
+      },
+      {
+        "cardTitle": "Install VS Code/FireFox like Apps on Ubuntu Server",
+        "cardDesc": "Linode is providing all the CodeWithHarry viewers with $100 free credit. Claim your $100 60-day credit at https://linode.com/cwh to follow along! Umbrel is an OS for running a personal server in your home. Self-host open source apps like Nextcloud, Bitcoin node, and more. Today we will see how to install Umbrel on your own server",
+        "cardUrl": "https://www.youtube.com/watch?v=7Wkpx4m6fjQ"
+      },
+      {
+        "cardTitle": "Chikni Chameli Best Video - Agneepath | Katrina, Hrithik | Shreya | Ajay-Atul",
+        "cardDesc": "Chikni Chameli is the perfect mass Bollywood Hit song. This delightful song-dance item number by Katrina Kaif is a treat to watch out for.",
+        "cardUrl": "https://www.youtube.com/watch?v=MQM7CNoAsBI"
+      }
     ],
-    "suraj": [],
-    "mfhweu": [],
-    "djfhurwey": [],
-    "djewg": [],
-    "mjdhwjfe": [],
-    "jhwhj": []
+    "Games": [
+      {
+        "cardTitle": "GTA 5 - Full Game Walkthrough in 4K",
+        "cardDesc": "Grand Theft Auto 5 Full Movie Walkthrough / Guide video with all 90 missions completed with Gold Medal 100% rating - 4K Ultra HD 60 fps [Played on PC]",
+        "cardUrl": "https://www.youtube.com/watch?v=7ssp44DydyA"
+      }
+    ],
+    "News": []
   }
 }
