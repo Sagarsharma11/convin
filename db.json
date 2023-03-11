@@ -7,29 +7,16 @@
     }
   ],
   "Buckets": {
-    "bucket3": [
-      {
-        "card_title": "title",
-        "cardUrl": "cardurl"
-      }
+    "sagar": [
+      {"cardname":"card1","cardtitle":"cardtitle1","cardurl":"https://www.youtube.com/watch?v=tB1sVu4-fr4"},
+      {"cardname":"card2","cardtitle":"cardtitle2","cardurl":"https://www.youtube.com/watch?v=tB1sVu4-fr4"},
+      {"cardname":"card3","cardtitle":"cardtitle3","cardurl":"https://www.youtube.com/watch?v=tB1sVu4-fr4"}
     ],
-    "bucket6": [
-      {
-        "card_title": "title",
-        "cardUrl": "cardurl"
-      }
-    ],
-    "bucket5": [
-      {
-        "card_title": "title",
-        "cardUrl": "cardurl"
-      }
-    ],
-    "bucket4": [
-      {
-        "card_title": "title",
-        "cardUrl": "cardurl"
-      }
-    ]
+    "suraj": [],
+    "mfhweu": [],
+    "djfhurwey": [],
+    "djewg": [],
+    "mjdhwjfe": [],
+    "jhwhj": []
   }
 }

@@ -26,6 +26,8 @@ const About = () => {
           "card_title_2": "title_2",
           "cardUrl_2": "cardurl_2"
         }
+        data['bucket4']=[]
+        data.bucket4.push(temp)
         console.log(`hello`)
         data.bucket2.push(card)
         console.log(data)
