@@ -7,30 +7,13 @@
     }
   ],
   "Buckets": {
-    "Entertainment": [
+    "suman": [],
+    "xwesome": [
       {
-        "cardTitle": "cardtitle4",
-        "cardDesc": "description",
-        "cardUrl": "https://www.youtube.com/watch?v=gaH_LHo4e3w"
-      },
-      {
-        "cardTitle": "Install VS Code/FireFox like Apps on Ubuntu Server",
-        "cardDesc": "Linode is providing all the CodeWithHarry viewers with $100 free credit. Claim your $100 60-day credit at https://linode.com/cwh to follow along! Umbrel is an OS for running a personal server in your home. Self-host open source apps like Nextcloud, Bitcoin node, and more. Today we will see how to install Umbrel on your own server",
-        "cardUrl": "https://www.youtube.com/watch?v=7Wkpx4m6fjQ"
-      },
-      {
-        "cardTitle": "Chikni Chameli Best Video - Agneepath | Katrina, Hrithik | Shreya | Ajay-Atul",
-        "cardDesc": "Chikni Chameli is the perfect mass Bollywood Hit song. This delightful song-dance item number by Katrina Kaif is a treat to watch out for.",
-        "cardUrl": "https://www.youtube.com/watch?v=MQM7CNoAsBI"
+        "cardTitle": "Rennervations | Official Trailer | Disney",
+        "cardDesc": "\n#Rennervations, an Original series, is streaming April 12 on #DisneyPlus.\n\n“Rennervations,” is an original four-part series that embraces Jeremy Renner’s lifelong passion to give back to communities around the world by reimagining unique purpose-built vehicles to meet a community’s needs. \n\nFor more updates, subscribe to Disney, Pixar, Marvel, Star Wars, and National Geographic.\n\nDisney+ is the streaming home of Disney, Pixar, Marvel, Star Wars, National Geographic, and more. From new releases to your favorite classics and exclusive Originals, there's something for everyone.  ",
+        "cardUrl": "https://www.youtube.com/watch?v=FifQJSqIGv0"
       }
-    ],
-    "Games": [
-      {
-        "cardTitle": "GTA 5 - Full Game Walkthrough in 4K",
-        "cardDesc": "Grand Theft Auto 5 Full Movie Walkthrough / Guide video with all 90 missions completed with Gold Medal 100% rating - 4K Ultra HD 60 fps [Played on PC]",
-        "cardUrl": "https://www.youtube.com/watch?v=7ssp44DydyA"
-      }
-    ],
-    "News": []
+    ]
   }
 }

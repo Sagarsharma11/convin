@@ -5,6 +5,8 @@ import Home from './Pages/Home'
 import About from './Pages/About';
 import Service from './Pages/Service';
 import Cards from './Pages/Cards';
+import Error from './Pages/Error';
+import Footer from './Component/Footer';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -28,6 +30,10 @@ function App() {
     {
       path: 'cards',
       element: <Cards />
+    },
+    {
+      path: '*',
+      element: <Error/>
     }
 
   ]);
@@ -35,6 +41,7 @@ function App() {
     <>
       <Navbar />
       <RouterProvider router={router} />
+      <Footer/>
     </>
   );
 }

@@ -30,7 +30,9 @@ const CreateBucket = () => {
             object[name] = []
             setBucketObject(bucketObject)
             axios.post('http://localhost:3000/Buckets', bucketObject)
-                .then((res) => { console.log('commit') })
+                .then((res) => { console.log('commit') 
+                dispatch(fetchBuckets())
+            })
                 .catch(console.log)
         }
         dispatch(fetchBuckets())
