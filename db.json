@@ -7,7 +7,13 @@
     }
   ],
   "Buckets": {
-    "suman": [],
+    "suman": [
+      {
+        "cardTitle": "Deploy React App on Vercel, Easy & Fast way || React Vercel hosting",
+        "cardDesc": "Host your React Website Free of Cost with a custom subdomain on Vercel.com.\n\n#hosting in vercel is really simple and it gives lots of features for react and nextjs but in this video, we are deploying our react app in vercel.com. #vercel.com offers hosting services for static websites. It provides both free and paid plans.\n\nWe are using the hosting service of vercel.com in this tutorial. You can choose a custom domain in vercel.com, I have shown the freeway that includes vercel.app at the end.\n\nThis is very handy when you want to show your project to your client, friends, or family, Just copy the URL and send it to everyone.",
+        "cardUrl": "https://www.youtube.com/watch?v=cUInBy6AGHU"
+      }
+    ],
     "xwesome": [
       {
         "cardTitle": "Rennervations | Official Trailer | Disney",

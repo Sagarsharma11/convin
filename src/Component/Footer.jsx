@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
     return (
 
-        <footer class="p-2 bg-white shadow md:px-4 md:py-6 dark:bg-gray-900">
+        <footer style={{marginTop: '100px'}} class="p-2 bg-white shadow md:px-4 md:py-6 dark:bg-gray-900">
             <div class="sm:flex sm:items-center sm:justify-between">
                 <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0">
                     <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="Flowbite Logo" />
