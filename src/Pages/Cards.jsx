@@ -77,7 +77,7 @@ const Cards = () => {
       .catch(console.log)
   }
   return (
-    <div style={{height:'77vh'}} >
+    <div style={{minHeight:'100%'}} >
       {
         bucket_name || bucketName ?
           <>
